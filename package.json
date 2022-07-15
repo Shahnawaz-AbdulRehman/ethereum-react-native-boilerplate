@@ -80,6 +80,7 @@
     "readable-stream": "^1.0.33",
     "stream-browserify": "^1.0.0",
     "url": "~0.10.1",
+    "watchman": "^1.0.0",
     "web3": "^1.6.1"
   },
   "devDependencies": {

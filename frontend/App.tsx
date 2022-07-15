@@ -16,7 +16,7 @@ function App(): JSX.Element {
         <Stack.Screen
           name="Onboarding"
           component={Onboarding}
-          options={{ headerShown: false }}
+          options={{ headerShown: true }}
         />
       </Stack.Navigator>
     </NavigationContainer>
