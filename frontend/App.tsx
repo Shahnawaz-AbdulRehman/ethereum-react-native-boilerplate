@@ -5,6 +5,7 @@ import {
 import { createStackNavigator } from "@react-navigation/stack";
 
 import Onboarding from "./Components/CryptoWallet/onboarding/Onboarding";
+import CreateUsername from "./Components/CryptoWallet/onboarding/CreateUsername";
 
 
 const Stack = createStackNavigator();
@@ -16,7 +17,12 @@ function App(): JSX.Element {
         <Stack.Screen
           name="Onboarding"
           component={Onboarding}
-          options={{ headerShown: true }}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name="CreateUsername"
+          component={CreateUsername}
+          options={{ headerShown: false }}
         />
       </Stack.Navigator>
     </NavigationContainer>

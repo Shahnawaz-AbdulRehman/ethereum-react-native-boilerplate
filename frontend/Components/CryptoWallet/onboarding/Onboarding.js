@@ -26,7 +26,7 @@ const Onboarding = ({ navigation }) => {
   return (
     <SafeAreaView style={styles.mainBody}>
       <View style={styles.logoContainer}>
-        <Text style={styles.logoText}>coinbase</Text>
+        <Text style={styles.logoText}>Coinbase</Text>
         <Text style={styles.logoSubtext}>Wallet</Text>
       </View>
       <View style={styles.subTextContainer}>
