@@ -13,7 +13,7 @@ const Stack = createStackNavigator();
 function App(): JSX.Element {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Onboarding">
+      <Stack.Navigator initialRouteName="CreateUsername">
         <Stack.Screen
           name="Onboarding"
           component={Onboarding}
