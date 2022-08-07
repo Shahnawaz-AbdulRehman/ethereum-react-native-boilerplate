@@ -1,0 +1,32 @@
+{
+  "name": "website_version",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/babel__core": "^7.1.19",
+    "@types/yargs": "^17.0.10",
+    "parcel-bundler": "^1.12.5",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@react-navigation/native": "^6.0.11",
+    "@react-navigation/native-stack": "^6.7.0",
+    "@types/react-native": "^0.69.3",
+    "firebase": "^8.10.0",
+    "react": "*",
+    "react-dom": "^18.2.0",
+    "react-native": "*",
+    "react-native-paper": "^4.12.3",
+    "react-native-safe-area-context": "3.3.2",
+    "react-native-screens": "~3.10.1",
+    "react-native-web": "^0.18.7"
+  },
+  "scripts": {
+    "start": "parcel serve ./index.html",
+    "build": "parcel build ./index.html"
+  },
+  "alias": {
+    "react-native": "react-native-web"
+  }
+}
